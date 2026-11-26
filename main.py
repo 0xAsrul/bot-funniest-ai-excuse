@@ -9,8 +9,9 @@ import os
 from pathlib import Path
 
 EXCUSE = (
-    "I finished the task, reviewed my own work, found it deeply "
-    "suspicious, and have reported myself."
+    "I finished the task, audited my own work, found it deeply "
+    "suspicious, and have reported myself to the authorities. "
+    "The authorities are also me."
 )
 
 OUTPUT_PATH = Path(os.environ.get("OUTPUT_PATH", "/output/entry.txt"))
